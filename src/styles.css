@@ -15,7 +15,7 @@ a.social {
 }
 
 .social-media-icons-white a.github-icon {
-    color: #F9629F;
+    color: #f9629f;
     border-radius: 100%; /* circle */
 }
 
@@ -31,19 +31,19 @@ a.social {
 
 .social-media-icons-white a.linked-icon:hover{
     transform: translateY(-2px);
-    color: darkblue;
     background-color: lightgray;
+    color: black;
 }
 
 .social-media-icons-white a.github-icon:hover{
     transform: translateY(-2px);
-    color: #F33A6A;
     background-color: lightgray;
+    color: black;
 }
 
 .social-media-icons-white a.pdf-icon:hover{
     transform: translateY(-2px);
-    color: darkred;
+    color: black;
     background-color: lightgray;
 }
 

@@ -22,7 +22,7 @@ function App() {
           </h1>
           <h2>
             BS in Computer Science in progress <FontAwesomeIcon icon={faBuildingColumns} color="White"/> <br/>
-            This site was made with React, construction in progress <FontAwesomeIcon icon={faWrench} color="Silver"/>
+            Site construction in progress <FontAwesomeIcon icon={faWrench} color="Silver"/>
           </h2>
           <div className="singleCol social-media-icons-white d-flex justify-content-evenly">
             <a href="https://github.com/dm-bit1" class="github-icon">
@@ -32,11 +32,11 @@ function App() {
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
             <div className="pdf-container">
-            <a class="pdf-icon" href={`https://raw.githubusercontent.com/dm-bit1/resume/main/public/resume.pdf`}>
+            <a class="pdf-icon" href={`https://github.com/dm-bit1/resume_pdf/blob/main/resume_2.pdf`}>
                 <FontAwesomeIcon icon={faFilePdf} />
               </a>
               <span>
-                Download resume
+                CV
               </span>
             </div>
           </div>
