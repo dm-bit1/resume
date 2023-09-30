@@ -1,0 +1,80 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.social-container {
+    background: #eee;
+    padding: 25px 50px;
+}
+
+a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
+
+.social-media-icons-white a.github-icon {
+    color: #F9629F;
+    border-radius: 100%; /* circle */
+}
+
+.social-media-icons-white a.linked-icon {
+    color: #0A66C2 ;
+    border-radius: 2px;/* rounded corner */
+}
+
+.social-media-icons-white a.pdf-icon {
+    color: crimson;
+    border-radius: 2px;
+}
+
+.social-media-icons-white a.linked-icon:hover{
+    transform: translateY(-2px);
+    color: darkblue;
+    background-color: lightgray;
+}
+
+.social-media-icons-white a.github-icon:hover{
+    transform: translateY(-2px);
+    color: #F33A6A;
+    background-color: lightgray;
+}
+
+.social-media-icons-white a.pdf-icon:hover{
+    transform: translateY(-2px);
+    color: darkred;
+    background-color: lightgray;
+}
+
+.pdf-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 16px;
+}
+
+img{
+    max-width:100%;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main-container {
+    background-image: url('./IMG_2818.JPG');
+    background-size: cover; /* Use this if you want to maintain the aspect ratio of the image */
+    /* background-size: 100% 100%; Use this if you want the image to stretch to fill the container */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Set height to 100% of the viewport height */
+    width: 100vw; /* Set width to 100% of the viewport width */
+    padding: 1rem;
+    box-sizing: border-box;
+}

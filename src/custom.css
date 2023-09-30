@@ -1,0 +1,58 @@
+h1 {
+    font-weight: bold;
+    font-family: Calibri;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+
+h1.text-center {
+    display: flex;
+    align-items: center; /* Vertically center only the text within h1 */
+}
+
+h2 {
+    font-family: Calibri;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.singleCol {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center */
+    align-items: center; /* Horizontally center */
+    height: 100vh; /* Make the container cover the entire viewport height */
+}
+
+body {
+    background: rgb(38,38,38);
+    background: linear-gradient(0deg, rbga(38,38,38,1), rgba(42,54,83,1) 100%);
+    height: 100vh;
+    color: white;   
+}
+
+.social-media-icons-white a {
+    color: white; 
+    font-size: 2rem;
+    background-color: white;
+    display: flex;
+    padding: 0;
+    text-decoration: none; 
+    border-radius: 0; /* rounded corners*/
+    overflow: hidden;
+    border: 0;
+    /* width: 3rem;
+    height: 3rem; */
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
