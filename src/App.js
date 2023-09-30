@@ -32,7 +32,7 @@ function App() {
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
             <div className="pdf-container">
-              <a class="pdf-icon" href={`${process.env.PUBLIC_URL}/resume.pdf`}>
+              <a class="pdf-icon" href={`https://raw.githubusercontent.com/dm-bit1/resume/main/public/resume.pdf`}>
                 <FontAwesomeIcon icon={faFilePdf} />
               </a>
               <span>
