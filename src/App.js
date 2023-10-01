@@ -6,7 +6,7 @@ import githubImage from './github.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
-import {faFilePdf} from '@fortawesome/free-regular-svg-icons';
+import {faFilePdf, faEnvelope} from '@fortawesome/free-regular-svg-icons';
 import {Container} from 'react-bootstrap';
 import "./custom.css";
 import "./styles.css";
@@ -22,8 +22,10 @@ function App() {
           </h1>
           <h2>
             BS in Computer Science in progress <FontAwesomeIcon icon={faBuildingColumns} color="White"/> <br/>
-            Site construction in progress <FontAwesomeIcon icon={faWrench} color="Silver"/>
           </h2>
+          <h3>
+            Site under construction <FontAwesomeIcon icon={faWrench} color="Silver"/>
+          </h3>
           <div className="singleCol social-media-icons-white d-flex justify-content-evenly">
             <a href="https://github.com/dm-bit1" class="github-icon">
               <FontAwesomeIcon icon={faGithub} />
@@ -39,6 +41,7 @@ function App() {
                 CV
               </span>
             </div>
+
           </div>
         </section>
   );
